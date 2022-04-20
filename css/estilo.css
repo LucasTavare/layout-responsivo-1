@@ -42,7 +42,7 @@ footer{
 
 #produtos{
     width: 100%;
-    height: 500px;
+    height: auto;
     float: left;
     background-color: crimson;
 }
@@ -57,7 +57,7 @@ footer{
 
 #destaques{
     width: 100%;
-    height: 500px;
+    height: auto;
     float: left;
     background-color: gold;
 }
@@ -69,3 +69,24 @@ footer{
     background-color: darkorange;
     border: 1px solid black;
 }
+
+/* final versão desktop */
+
+/* inicio da versão mobile */
+
+@media only screen and (max-width: 700px) {
+    #container{
+        width: 100%;
+    }
+    .produtos-colunas{
+        width: 50%;
+        height: 350px;
+    }
+
+    .destaques-colunas{
+        width: 100%;
+        height: 400px;
+    }
+  }
+
+/* final versão mobile */
